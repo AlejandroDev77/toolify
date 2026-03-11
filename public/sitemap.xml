@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home Page - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://toolify-xi.vercel.app/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toolify-xi.vercel.app/en"/>
+  </url>
+
+  <!-- Home Page - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://toolify-xi.vercel.app/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toolify-xi.vercel.app/en"/>
+  </url>
+
+  <!-- Image Tools - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/compress-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://toolify-xi.vercel.app/es/tool/compress-image"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toolify-xi.vercel.app/en/tool/compress-image"/>
+  </url>
+
+  <!-- Image Tools - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/compress-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://toolify-xi.vercel.app/es/tool/compress-image"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toolify-xi.vercel.app/en/tool/compress-image"/>
+  </url>
+
+  <!-- Resize Image - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/resize-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Resize Image - English -->
+ <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/resize-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Rotate Image - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/rotate-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Rotate Image - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/rotate-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Flip Image - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/flip-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Flip Image - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/flip-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Crop Image - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/crop-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Crop Image - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/crop-image</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- PNG to JPG - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/png-to-jpg</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- PNG to JPG - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/png-to-jpg</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- JPG to PNG - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/jpg-to-png</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- JPG to PNG - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/jpg-to-png</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Image to WebP - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/image-to-webp</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Image to WebP - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/image-to-webp</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Color Picker - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/color-picker</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Color Picker - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/color-picker</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Image to Base64 - Español -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/es/tool/image-to-base64</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Image to Base64 - English -->
+  <url>
+    <loc>https://toolify-xi.vercel.app/en/tool/image-to-base64</loc>
+    <lastmod>2024-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

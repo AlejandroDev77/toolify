@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 
 interface SEOProps {
   title?: string;
@@ -10,43 +11,58 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = 'Toolify - Herramientas Online Gratuitas',
-  description = 'Toolify es una colección de herramientas online gratuitas para editar imágenes, comprimir, redimensionar, convertir formatos y mucho más. Herramientas rápidas, fáciles de usar y sin publicidad.',
-  keywords = 'herramientas online, editar imágenes, comprimir imágenes, convertir imágenes, redimensionar imágenes, toolify',
+  title,
+  description,
+  keywords,
   ogImage = '/src/assets/LOGO.png',
-  ogUrl = 'https://toolify-xi.vercel.app',
+  ogUrl,
   ogType = 'website'
 }: SEOProps) {
+  const { i18n, t } = useTranslation();
+
+  // Usar traducción del key si se proporciona, sino usar el valor directo
+  const finalTitle = title || t('home.title');
+  const finalDescription = description || t('home.description');
+  const finalKeywords = keywords || t('home.keywords');
+  const currentLang = i18n.language;
+  const finalUrl = ogUrl || `https://toolify-xi.vercel.app/${currentLang}`;
+
   return (
     <Helmet>
       {/* Título y Descripción */}
-      <title>{title}</title>
-      <meta name="description" content={description} />
-      <meta name="keywords" content={keywords} />
+      <title>{finalTitle}</title>
+      <meta name="description" content={finalDescription} />
+      <meta name="keywords" content={finalKeywords} />
+      <meta httpEquiv="content-language" content={currentLang} />
 
       {/* Open Graph - Redes Sociales */}
       <meta property="og:type" content={ogType} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:title" content={finalTitle} />
+      <meta property="og:description" content={finalDescription} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:url" content={ogUrl} />
+      <meta property="og:url" content={finalUrl} />
       <meta property="og:site_name" content="Toolify" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:title" content={finalTitle} />
+      <meta name="twitter:description" content={finalDescription} />
       <meta name="twitter:image" content={ogImage} />
 
       {/* Optimización General */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="language" content="es" />
+      <meta name="language" content={currentLang} />
       <meta name="author" content="Toolify" />
       <meta name="robots" content="index, follow" />
       <meta name="googlebot" content="index, follow" />
 
       {/* Canonical */}
-      <link rel="canonical" href={ogUrl} />
+      <link rel="canonical" href={finalUrl} />
+
+      {/* hreflang para multiidioma */}
+      <link rel="alternate" hrefLang="es" href={finalUrl.replace(/\/en($|\/)/, '/es$1').replace(/\/(en|es)$/, '/es')} />
+      <link rel="alternate" hrefLang="en" href={finalUrl.replace(/\/es($|\/)/, '/en$1').replace(/\/(en|es)$/, '/en')} />
+      <link rel="alternate" hrefLang="x-default" href="https://toolify-xi.vercel.app" />
 
       {/* Schema.org JSON-LD */}
       <script type="application/ld+json">
@@ -54,8 +70,9 @@ export default function SEO({
           '@context': 'https://schema.org',
           '@type': 'WebApplication',
           'name': 'Toolify',
-          'description': description,
+          'description': finalDescription,
           'url': 'https://toolify-xi.vercel.app',
+          'inLanguage': currentLang,
           'applicationCategory': 'Utility',
           'offers': {
             '@type': 'Offer',

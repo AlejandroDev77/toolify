@@ -1,13 +1,16 @@
 import { Link, useLocation } from "react-router-dom";
 import { Home, Info } from "lucide-react";
 import logo from "../../assets/LOGO.png";
+import LanguageSwitcher from "../LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
+  const { t } = useTranslation();
   const location = useLocation();
 
   const navLinks = [
-    { name: "Inicio", path: "/", icon: Home },
-    { name: "Acerca de", path: "/about", icon: Info },
+    { name: t('nav.home'), path: "/", icon: Home },
+    { name: t('nav.tools'), path: "/about", icon: Info },
   ];
 
   return (
@@ -43,7 +46,9 @@ export default function Header() {
             );
           })}
         </nav>
-        <div className="flex justify-end md:w-[130px]"></div>
+        <div className="flex justify-end md:w-[130px]">
+          <LanguageSwitcher />
+        </div>
       </div>
     </header>
   );

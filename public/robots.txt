@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /.next
+
+# Sitemaps
+Sitemap: https://toolify-xi.vercel.app/sitemap.xml
+
+# Rate limiting
+Crawl-delay: 1
+Request-rate: 10/1m
