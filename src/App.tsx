@@ -1,3 +1,4 @@
+import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
@@ -16,9 +17,10 @@ import ImageToBase64 from './pages/tools/ImageToBase64';
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Routes>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Layout>
+          <Routes>
           <Route path="/" element={<Home />} />
           
           {/* Image Tools */}
@@ -32,8 +34,9 @@ export default function App() {
           <Route path="/tool/image-to-webp" element={<ImageToWebp />} />
           <Route path="/tool/color-picker" element={<ColorPicker />} />
           <Route path="/tool/image-to-base64" element={<ImageToBase64 />} />
-        </Routes>
-      </Layout>
-    </BrowserRouter>
+          </Routes>
+        </Layout>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }

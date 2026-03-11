@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import SEO from '../../components/SEO';
+import { seoConfig } from '../../utils/seoConfig';
 import FileUploader from '../../components/shared/FileUploader';
 import DownloadButton from '../../components/shared/DownloadButton';
 import ToolLayout from '../ToolLayout';
@@ -78,11 +80,13 @@ export default function CompressImage() {
   };
 
   return (
-    <ToolLayout
-      title="Comprimir Imagen"
-      description="Reduce dramáticamente el tamaño de archivo de tus imágenes manteniendo intacta la calidad visual que importa."
-      icon={FileImage}
-    >
+    <>
+      <SEO {...seoConfig.compressImage} />
+      <ToolLayout
+        title="Comprimir Imagen"
+        description="Reduce dramáticamente el tamaño de archivo de tus imágenes manteniendo intacta la calidad visual que importa."
+        icon={FileImage}
+      >
       <div className="space-y-8">
         {!preview ? (
           <div className="space-y-12">
@@ -182,5 +186,6 @@ export default function CompressImage() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }

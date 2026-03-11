@@ -1,4 +1,6 @@
 import { useState, useMemo } from "react";
+import SEO from "../components/SEO";
+import { seoConfig } from "../utils/seoConfig";
 import ToolCard from "../components/shared/ToolCard";
 import {
   Image as ImageIcon,
@@ -333,7 +335,9 @@ export default function Home() {
   }, [searchQuery, selectedCategory]);
 
   return (
-    <div className="py-12 px-4 max-w-7xl mx-auto">
+    <>
+      <SEO {...seoConfig.home} />
+      <div className="py-12 px-4 max-w-7xl mx-auto">
       {/* Hero Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
@@ -454,6 +458,7 @@ export default function Home() {
           </button>
         </div>
       )}
-    </div>
+      </div>
+    </>
   );
 }

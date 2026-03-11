@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import SEO from '../../components/SEO';
+import { seoConfig } from '../../utils/seoConfig';
 import FileUploader from '../../components/shared/FileUploader';
 import ToolLayout from '../ToolLayout';
 import { Download, RefreshCw, AlertCircle } from 'lucide-react';
@@ -65,10 +67,12 @@ export default function PngToJpg() {
   };
 
   return (
-    <ToolLayout
-      title="PNG → JPG"
-      description="Convierte imágenes PNG a formato JPG de alta calidad con fondo blanco para las transparencias."
-    >
+    <>
+      <SEO {...seoConfig.pngToJpg} />
+      <ToolLayout
+        title="PNG → JPG"
+        description="Convierte imágenes PNG a formato JPG de alta calidad con fondo blanco para las transparencias."
+      >
       <div className="space-y-6">
         {error && (
           <div className="p-4 bg-red-50 text-red-600 rounded-xl flex items-center gap-3 border border-red-200">
@@ -139,5 +143,6 @@ export default function PngToJpg() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }

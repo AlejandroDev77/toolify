@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import SEO from '../../components/SEO';
+import { seoConfig } from '../../utils/seoConfig';
 import FileUploader from '../../components/shared/FileUploader';
 import DownloadButton from '../../components/shared/DownloadButton';
 import ToolLayout from '../ToolLayout';
@@ -71,11 +73,13 @@ export default function FlipImage() {
   };
 
   return (
-    <ToolLayout
-      title="Voltear Imagen"
-      description="Refleja horizontal o verticalmente tus imágenes para lograr el aspecto de espejo deseado."
-      icon={FlipHorIcon}
-    >
+    <>
+      <SEO {...seoConfig.flipImage} />
+      <ToolLayout
+        title="Voltear Imagen"
+        description="Refleja horizontal o verticalmente tus imágenes para lograr el aspecto de espejo deseado."
+        icon={FlipHorIcon}
+      >
       <div className="space-y-8">
         {!preview ? (
           <div className="space-y-12">
@@ -184,5 +188,6 @@ export default function FlipImage() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }
