@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "framer-motion": "^12.35.2",
+    "lucide-react": "^0.577.0",
     "react": "^19.2.0",
+    "react-color": "^2.19.3",
     "react-dom": "^19.2.0",
+    "react-dropzone": "^15.0.0",
+    "react-image-crop": "^11.0.10",
     "react-router-dom": "^7.13.1"
   },
   "devDependencies": {
@@ -19,6 +25,7 @@
     "@tailwindcss/vite": "^4.2.1",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
+    "@types/react-color": "^3.0.13",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.27",
