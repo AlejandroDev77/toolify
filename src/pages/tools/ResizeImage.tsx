@@ -1,4 +1,6 @@
 import { useState, useRef } from "react";
+import SEO from "../../components/SEO";
+import { seoConfig } from "../../utils/seoConfig";
 import FileUploader from "../../components/shared/FileUploader";
 import ToolLayout from "../ToolLayout";
 import {
@@ -99,11 +101,13 @@ export default function ResizeImage() {
   };
 
   return (
-    <ToolLayout
-      title="Redimensionar Imagen"
-      description="Cambia las dimensiones de tus imágenes fácil y rápido. Adapta para diferentes plataformas o propósitos específicos sin perder calida visual."
-      icon={Maximize2}
-    >
+    <>
+      <SEO {...seoConfig.resizeImage} />
+      <ToolLayout
+        title="Redimensionar Imagen"
+        description="Cambia las dimensiones de tus imágenes fácil y rápido. Adapta para diferentes plataformas o propósitos específicos sin perder calida visual."
+        icon={Maximize2}
+      >
       <div className="space-y-8">
         {!preview ? (
           <div className="space-y-12">
@@ -340,5 +344,6 @@ export default function ResizeImage() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }

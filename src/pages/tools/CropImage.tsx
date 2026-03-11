@@ -1,4 +1,6 @@
 import { useState, useRef } from 'react';
+import SEO from '../../components/SEO';
+import { seoConfig } from '../../utils/seoConfig';
 import FileUploader from '../../components/shared/FileUploader';
 import ToolLayout from '../ToolLayout';
 import { Download, AlertCircle, Crop as CropIcon, MousePointerSquareDashed, Focus, Frame } from 'lucide-react';
@@ -84,10 +86,12 @@ export default function CropImage() {
   };
 
   return (
-    <ToolLayout
-      title="Recortar Imagen"
-      description="Recorta partes específicas de tus imágenes con precisión y facilidad."
-    >
+    <>
+      <SEO {...seoConfig.cropImage} />
+      <ToolLayout
+        title="Recortar Imagen"
+        description="Recorta partes específicas de tus imágenes con precisión y facilidad."
+      >
       <div className="space-y-6">
         {error && (
           <div className="p-4 bg-red-50 text-red-600 rounded-xl flex items-center gap-3 border border-red-200">
@@ -268,5 +272,6 @@ export default function CropImage() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }

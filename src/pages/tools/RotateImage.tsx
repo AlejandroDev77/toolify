@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import SEO from '../../components/SEO';
+import { seoConfig } from '../../utils/seoConfig';
 import FileUploader from '../../components/shared/FileUploader';
 import DownloadButton from '../../components/shared/DownloadButton';
 import ToolLayout from '../ToolLayout';
@@ -71,11 +73,13 @@ export default function RotateImage() {
   };
 
   return (
-    <ToolLayout
-      title="Rotar Imagen"
-      description="Gira y reorienta tus fotografías e imágenes en cualquier ángulo exacto."
-      icon={RotateCw}
-    >
+    <>
+      <SEO {...seoConfig.rotateImage} />
+      <ToolLayout
+        title="Rotar Imagen"
+        description="Gira y reorienta tus fotografías e imágenes en cualquier ángulo exacto."
+        icon={RotateCw}
+      >
       <div className="space-y-8">
         {!preview ? (
           <div className="space-y-12">
@@ -189,5 +193,6 @@ export default function RotateImage() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }

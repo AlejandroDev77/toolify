@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import SEO from '../../components/SEO';
+import { seoConfig } from '../../utils/seoConfig';
 import FileUploader from '../../components/shared/FileUploader';
 import ToolLayout from '../ToolLayout';
 import { Download, RefreshCw, AlertCircle } from 'lucide-react';
@@ -64,10 +66,12 @@ export default function ImageToWebp() {
   };
 
   return (
-    <ToolLayout
-      title="Image → WebP"
-      description="Convierte tus imágenes a formato WebP, el formato más eficiente para la web."
-    >
+    <>
+      <SEO {...seoConfig.imageToWebp} />
+      <ToolLayout
+        title="Image → WebP"
+        description="Convierte tus imágenes a formato WebP, el formato más eficiente para la web."
+      >
       <div className="space-y-6">
         {error && (
           <div className="p-4 bg-red-50 text-red-600 rounded-xl flex items-center gap-3 border border-red-200">
@@ -138,5 +142,6 @@ export default function ImageToWebp() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }

@@ -1,0 +1,189 @@
+{
+  "common": {
+    "search": "Buscar por nombre o descripción",
+    "all": "Todas",
+    "comingSoon": "Próximamente",
+    "noResults": "No se encontraron herramientas",
+    "tryOtherTerms": "Intenta utilizar otros términos de búsqueda",
+    "clearSearch": "Limpiar búsqueda",
+    "download": "Descargar",
+    "upload": "Subir",
+    "selectImage": "Selecciona una imagen",
+    "newImage": "Nueva imagen"
+  },
+  "nav": {
+    "home": "Inicio",
+    "tools": "Herramientas",
+    "language": "Idioma",
+    "spanish": "Español",
+    "english": "English"
+  },
+  "home": {
+    "title": "Toolify - Herramientas Online Gratuitas para Imágenes",
+    "description": "Toolify es una colección de herramientas online gratuitas para editar imágenes, comprimir, redimensionar, convertir formatos y mucho más.",
+    "keywords": "herramientas online, editar imágenes, comprimir imágenes, convertir imágenes, redimensionar imágenes, toolify",
+    "hero": {
+      "title": "Todas las herramientas que necesitas",
+      "subtitle": "Una colección premium de herramientas gratuitas para transformar imágenes, manipular datos y optimizar tu tiempo."
+    }
+  },
+  "categories": {
+    "image": "Herramientas de Imagen",
+    "generator": "Generadores",
+    "calculator": "Calculadoras",
+    "text": "Herramientas de Texto",
+    "developer": "Herramientas para Desarrolladores"
+  },
+  "tools": {
+    "compressimage": {
+      "name": "Comprimir Imagen",
+      "description": "Reduce el tamaño de imágenes sin perder mucha calidad",
+      "title": "Compresor de Imágenes Online - Toolify",
+      "longDescription": "Reduce dramáticamente el tamaño de archivo de tus imágenes manteniendo intacta la calidad visual que importa.",
+      "keywords": "compresor imágenes, comprimir PNG, comprimir JPG, reducir tamaño imagen, optimizar imágenes"
+    },
+    "resizeimage": {
+      "name": "Redimensionar Imagen",
+      "description": "Cambia el tamaño de tus imágenes fácilmente",
+      "title": "Redimensionador de Imágenes Online - Toolify",
+      "longDescription": "Cambia las dimensiones de tus imágenes fácil y rápido. Adapta para diferentes plataformas o propósitos específicos sin perder calidad visual.",
+      "keywords": "redimensionar imágenes, cambiar tamaño imágenes, resize imagen, ajustar tamaño foto"
+    },
+    "rotateimage": {
+      "name": "Rotar Imagen",
+      "description": "Gira tus imágenes en cualquier ángulo",
+      "title": "Rotador de Imágenes Online - Toolify",
+      "longDescription": "Gira y reorienta tus fotografías e imágenes en cualquier ángulo exacto.",
+      "keywords": "rotar imágenes, girar fotos, rotar foto 90 grados, girar imagen"
+    },
+    "flipimage": {
+      "name": "Voltear Imagen",
+      "description": "Voltea imágenes horizontal o verticalmente",
+      "title": "Voltea Imágenes Online - Toolify",
+      "longDescription": "Voltea y espeja tus imágenes horizontalmente o verticalmente.",
+      "keywords": "voltear imágenes, espejo imagen, flip imagen, imagen reflejo"
+    },
+    "cropimage": {
+      "name": "Recortar Imagen",
+      "description": "Recorta partes específicas de tus imágenes",
+      "title": "Recortador de Imágenes Online - Toolify",
+      "longDescription": "Recorta partes específicas de tus imágenes con precisión y facilidad.",
+      "keywords": "recortar imágenes, crop imagen, cortar foto, ajustar tamaño"
+    },
+    "pngtojpg": {
+      "name": "PNG → JPG",
+      "description": "Convierte PNG a JPG automáticamente",
+      "title": "Convertidor de PNG a JPG Online - Toolify",
+      "longDescription": "Convierte imágenes PNG a formato JPG de alta calidad con fondo blanco para las transparencias.",
+      "keywords": "PNG a JPG, convertir PNG JPG, conversor imagen, cambiar formato imagen"
+    },
+    "jpgtopng": {
+      "name": "JPG → PNG",
+      "description": "Convierte JPG a PNG automáticamente",
+      "title": "Convertidor de JPG a PNG Online - Toolify",
+      "longDescription": "Convierte imágenes JPG a formato PNG en alta calidad con soporte para transparencia.",
+      "keywords": "JPG a PNG, convertir JPG PNG, conversor imagen, cambiar formato"
+    },
+    "imagetowebp": {
+      "name": "Image → WebP",
+      "description": "Convierte imágenes a formato WebP",
+      "title": "Convertidor de Imágenes a WebP Online - Toolify",
+      "longDescription": "Convierte tus imágenes a formato WebP, el formato más eficiente para la web.",
+      "keywords": "convertir WebP, imagen a WebP, optimizar WebP, formato WebP"
+    },
+    "colorpicker": {
+      "name": "Selector de Color",
+      "description": "Extrae colores de tus imágenes",
+      "title": "Selector de Colores Online - Toolify",
+      "longDescription": "Selecciona colores de tus imágenes y obtén los códigos HEX, RGB y más.",
+      "keywords": "selector colores, eyedropper, color picker, código hexadecimal, RGB"
+    },
+    "imagetobase64": {
+      "name": "Image → Base64",
+      "description": "Convierte imágenes a Base64",
+      "title": "Convertidor de Imagen a Base64 - Toolify",
+      "longDescription": "Convierte imágenes a una cadena Base64 para incrustarlas directamente en tu código HTML o CSS.",
+      "keywords": "imagen a base64, convertir base64, codificador imagen, base64 image"
+    },
+    "passwordgenerator": {
+      "name": "Generador de Contraseñas",
+      "description": "Crea contraseñas seguras y aleatorias"
+    },
+    "uuidgenerator": {
+      "name": "Generador UUID",
+      "description": "Genera UUIDs únicos al instante"
+    },
+    "qrgenerator": {
+      "name": "Generador QR",
+      "description": "Crea códigos QR desde texto o URLs"
+    },
+    "randomnumber": {
+      "name": "Número Aleatorio",
+      "description": "Genera números aleatorios"
+    },
+    "loremipsum": {
+      "name": "Lorem Ipsum",
+      "description": "Genera texto ficticio"
+    },
+    "fakename": {
+      "name": "Nombre Falso",
+      "description": "Genera nombres ficticios"
+    },
+    "bmicalculator": {
+      "name": "Calculadora IMC",
+      "description": "Calcula tu Índice de Masa Corporal"
+    },
+    "agecalculator": {
+      "name": "Calculadora de Edad",
+      "description": "Calcula tu edad exacta"
+    },
+    "percentagecalculator": {
+      "name": "Calculadora de Porcentaje",
+      "description": "Calcula porcentajes fácilmente"
+    },
+    "loancalculator": {
+      "name": "Calculadora de Crédito",
+      "description": "Calcula pagos y tasas de crédito"
+    },
+    "timedifference": {
+      "name": "Diferencia de Tiempo",
+      "description": "Calcula la diferencia entre fechas"
+    },
+    "unitconverter": {
+      "name": "Convertidor de Unidades",
+      "description": "Convierte entre diferentes unidades"
+    },
+    "wordcounter": {
+      "name": "Contador de Palabras",
+      "description": "Cuenta palabras y caracteres"
+    },
+    "charactercounter": {
+      "name": "Contador de Caracteres",
+      "description": "Cuenta caracteres con exactitud"
+    },
+    "removespaces": {
+      "name": "Eliminar Espacios",
+      "description": "Quita espacios extra del texto"
+    },
+    "textcase": {
+      "name": "Convertidor de Mayúsculas",
+      "description": "MAYÚSCULAS, minúsculas, Capitalizar"
+    },
+    "reversetext": {
+      "name": "Invertir Texto",
+      "description": "Invierte el orden del texto"
+    },
+    "jsonformatter": {
+      "name": "Formateador JSON",
+      "description": "Formatea y valida JSON"
+    },
+    "base64encode": {
+      "name": "Base64 Encode/Decode",
+      "description": "Codifica y decodifica Base64"
+    },
+    "urlencode": {
+      "name": "URL Encoder/Decoder",
+      "description": "Codifica y decodifica URLs"
+    }
+  }
+}

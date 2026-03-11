@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import SEO from '../../components/SEO';
+import { seoConfig } from '../../utils/seoConfig';
 import FileUploader from '../../components/shared/FileUploader';
 import ToolLayout from '../ToolLayout';
 import { Copy, Check, RefreshCw, AlertCircle } from 'lucide-react';
@@ -55,10 +57,12 @@ export default function ImageToBase64() {
   };
 
   return (
-    <ToolLayout
-      title="Image → Base64"
-      description="Convierte imágenes a una cadena Base64 para incrustarlas directamente en tu código HTML o CSS."
-    >
+    <>
+      <SEO {...seoConfig.imageToBase64} />
+      <ToolLayout
+        title="Image → Base64"
+        description="Convierte imágenes a una cadena Base64 para incrustarlas directamente en tu código HTML o CSS."
+      >
       <div className="space-y-6">
         {error && (
           <div className="p-4 bg-red-50 text-red-600 rounded-xl flex items-center gap-3 border border-red-200">
@@ -137,5 +141,6 @@ export default function ImageToBase64() {
         )}
       </div>
     </ToolLayout>
+    </>
   );
 }

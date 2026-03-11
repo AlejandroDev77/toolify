@@ -1,0 +1,189 @@
+{
+  "common": {
+    "search": "Search by name or description",
+    "all": "All",
+    "comingSoon": "Coming Soon",
+    "noResults": "No tools found",
+    "tryOtherTerms": "Try using other search terms.",
+    "clearSearch": "Clear search",
+    "download": "Download",
+    "upload": "Upload",
+    "selectImage": "Select an image",
+    "newImage": "New image"
+  },
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "language": "Language",
+    "spanish": "Español",
+    "english": "English"
+  },
+  "home": {
+    "title": "Toolify - Free Online Tools for Images",
+    "description": "Toolify is a collection of free online tools to edit images, compress, resize, convert formats and much more.",
+    "keywords": "online tools, edit images, compress images, convert images, resize images, toolify",
+    "hero": {
+      "title": "All the tools you need",
+      "subtitle": "A premium collection of free tools to transform images, manipulate data and optimize your time."
+    }
+  },
+  "categories": {
+    "image": "Image Tools",
+    "generator": "Generators",
+    "calculator": "Calculators",
+    "text": "Text Tools",
+    "developer": "Developer Tools"
+  },
+  "tools": {
+    "compressimage": {
+      "name": "Compress Image",
+      "description": "Reduce image size without losing much quality",
+      "title": "Image Compressor Online - Toolify",
+      "longDescription": "Dramatically reduce your image file size while keeping the visual quality that matters intact.",
+      "keywords": "image compressor, compress PNG, compress JPG, reduce image size, optimize images"
+    },
+    "resizeimage": {
+      "name": "Resize Image",
+      "description": "Change the size of your images easily",
+      "title": "Image Resizer Online - Toolify",
+      "longDescription": "Change your image dimensions easily and quickly. Adapt for different platforms or purposes without losing visual quality.",
+      "keywords": "resize images, change image size, resize image, adjust photo size"
+    },
+    "rotateimage": {
+      "name": "Rotate Image",
+      "description": "Rotate your images at any angle",
+      "title": "Image Rotator Online - Toolify",
+      "longDescription": "Rotate and reorient your photos and images at any exact angle.",
+      "keywords": "rotate images, rotate photos, rotate 90 degrees, rotate image"
+    },
+    "flipimage": {
+      "name": "Flip Image",
+      "description": "Flip images horizontally or vertically",
+      "title": "Flip Images Online - Toolify",
+      "longDescription": "Flip and mirror your images horizontally or vertically.",
+      "keywords": "flip images, mirror image, flip image, reflect image"
+    },
+    "cropimage": {
+      "name": "Crop Image",
+      "description": "Crop specific parts of your images",
+      "title": "Image Cropper Online - Toolify",
+      "longDescription": "Crop specific parts of your images with precision and ease.",
+      "keywords": "crop images, crop image, cut photo, adjust size"
+    },
+    "pngtojpg": {
+      "name": "PNG → JPG",
+      "description": "Convert PNG to JPG automatically",
+      "title": "PNG to JPG Converter Online - Toolify",
+      "longDescription": "Convert PNG images to JPG format with high quality and white background for transparencies.",
+      "keywords": "PNG to JPG, convert PNG JPG, image converter, change image format"
+    },
+    "jpgtopng": {
+      "name": "JPG → PNG",
+      "description": "Convert JPG to PNG automatically",
+      "title": "JPG to PNG Converter Online - Toolify",
+      "longDescription": "Convert JPG images to PNG format in high quality with transparency support.",
+      "keywords": "JPG to PNG, convert JPG PNG, image converter, change format"
+    },
+    "imagetowebp": {
+      "name": "Image → WebP",
+      "description": "Convert images to WebP format",
+      "title": "Image to WebP Converter Online - Toolify",
+      "longDescription": "Convert your images to WebP format, the most efficient format for the web.",
+      "keywords": "convert WebP, image to WebP, optimize WebP, WebP format"
+    },
+    "colorpicker": {
+      "name": "Color Picker",
+      "description": "Extract colors from your images",
+      "title": "Color Picker Online - Toolify",
+      "longDescription": "Select colors from your images and get HEX, RGB and more codes.",
+      "keywords": "color picker, eyedropper, color picker, hex code, RGB"
+    },
+    "imagetobase64": {
+      "name": "Image → Base64",
+      "description": "Convert images to Base64",
+      "title": "Image to Base64 Converter - Toolify",
+      "longDescription": "Convert images to a Base64 string to embed directly in your HTML or CSS code.",
+      "keywords": "image to base64, convert base64, image encoder, base64 image"
+    },
+    "passwordgenerator": {
+      "name": "Password Generator",
+      "description": "Create secure and random passwords"
+    },
+    "uuidgenerator": {
+      "name": "UUID Generator",
+      "description": "Generate unique UUIDs instantly"
+    },
+    "qrgenerator": {
+      "name": "QR Generator",
+      "description": "Create QR codes from text or URLs"
+    },
+    "randomnumber": {
+      "name": "Random Number",
+      "description": "Generate random numbers"
+    },
+    "loremipsum": {
+      "name": "Lorem Ipsum",
+      "description": "Generate fake text"
+    },
+    "fakename": {
+      "name": "Fake Name",
+      "description": "Generate fictional names"
+    },
+    "bmicalculator": {
+      "name": "BMI Calculator",
+      "description": "Calculate your Body Mass Index"
+    },
+    "agecalculator": {
+      "name": "Age Calculator",
+      "description": "Calculate your exact age"
+    },
+    "percentagecalculator": {
+      "name": "Percentage Calculator",
+      "description": "Calculate percentages easily"
+    },
+    "loancalculator": {
+      "name": "Loan Calculator",
+      "description": "Calculate loan payments and rates"
+    },
+    "timedifference": {
+      "name": "Time Difference",
+      "description": "Calculate the difference between dates"
+    },
+    "unitconverter": {
+      "name": "Unit Converter",
+      "description": "Convert between different units"
+    },
+    "wordcounter": {
+      "name": "Word Counter",
+      "description": "Count words and characters"
+    },
+    "charactercounter": {
+      "name": "Character Counter",
+      "description": "Count characters accurately"
+    },
+    "removespaces": {
+      "name": "Remove Spaces",
+      "description": "Remove extra spaces from text"
+    },
+    "textcase": {
+      "name": "Text Case Converter",
+      "description": "UPPERCASE, lowercase, Capitalize"
+    },
+    "reversetext": {
+      "name": "Reverse Text",
+      "description": "Reverse the order of text"
+    },
+    "jsonformatter": {
+      "name": "JSON Formatter",
+      "description": "Format and validate JSON"
+    },
+    "base64encode": {
+      "name": "Base64 Encode/Decode",
+      "description": "Encode and decode Base64"
+    },
+    "urlencode": {
+      "name": "URL Encoder/Decoder",
+      "description": "Encode and decode URLs"
+    }
+  }
+}
