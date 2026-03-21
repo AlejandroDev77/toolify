@@ -9,7 +9,258 @@
     "download": "Descargar",
     "upload": "Subir",
     "selectImage": "Selecciona una imagen",
-    "newImage": "Nueva imagen"
+    "newImage": "Nueva imagen",
+    "amount": "Cantidad",
+    "from": "Desde",
+    "to": "Hasta",
+    "convert": "Convertir",
+    "calculate": "Calcular",
+    "generate": "Generar",
+    "format": "Formatear",
+    "minify": "Minificar",
+    "analyze": "Analizar",
+    "compare": "Comparar",
+    "extract": "Extraer",
+    "sort": "Ordenar",
+    "decode": "Decodificar",
+    "input": "Entrada",
+    "output": "Salida",
+    "result": "Resultado",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyAll": "Copiar todo",
+    "note": "Nota",
+    "optional": "Opcional",
+    "text": "Texto",
+    "enterText": "Ingresa tu texto aquí",
+    "ascending": "Ascendente",
+    "descending": "Descendente",
+    "byLength": "Por longitud",
+    "algorithm": "Algoritmo",
+    "hash": "Hash",
+    "header": "Encabezado",
+    "payload": "Carga útil",
+    "signature": "Firma",
+    "jwtToken": "Token JWT",
+    "invalidJWT": "JWT inválido",
+    "invalidXML": "XML inválido",
+    "csvInput": "Entrada CSV",
+    "jsonOutput": "Salida JSON",
+    "jsonInput": "Entrada JSON",
+    "csvOutput": "Salida CSV",
+    "saved": "Ahorrado",
+    "topic": "Tema",
+    "keywords": "Palabras clave",
+    "baseName": "Nombre base",
+    "style": "Estilo",
+    "professional": "Profesional",
+    "casual": "Casual",
+    "creative": "Creativo",
+    "found": "Encontrado",
+    "emails": "emails",
+    "selectFile": "Seleccionar archivo",
+    "selectFiles": "Seleccionar archivos",
+    "processing": "Procesando...",
+    "error": "Error al procesar el archivo",
+    "tools": "herramientas",
+    "tool": "herramienta",
+    "back": "Volver",
+    "backToTools": "Volver a Herramientas",
+    "noEmailsFound": "No se encontraron emails",
+    "find": "Buscar",
+    "replace": "Reemplazar",
+    "caseSensitive": "Sensible a mayúsculas",
+    "startFrom": "Comenzar desde",
+    "addNumbers": "Agregar números",
+    "removeDuplicates": "Eliminar duplicados",
+    "sortOrder": "Orden",
+    "wordsPerMinute": "Palabras por minuto",
+    "readingTime": "Tiempo de lectura",
+    "speed": "Velocidad",
+    "words": "Palabras",
+    "keyword": "Palabra clave",
+    "count": "Conteo",
+    "density": "Densidad",
+    "added": "Agregado",
+    "removed": "Eliminado",
+    "unchanged": "Sin cambios",
+    "grossIncome": "Ingreso bruto",
+    "deductions": "Deducciones",
+    "taxableIncome": "Ingreso gravable",
+    "totalTax": "Impuesto total",
+    "effectiveRate": "Tasa efectiva",
+    "netIncome": "Ingreso neto",
+    "taxBreakdown": "Desglose de impuestos",
+    "initialInvestment": "Inversión inicial",
+    "finalValue": "Valor final",
+    "timeYears": "Tiempo (años)",
+    "roi": "ROI",
+    "annualizedROI": "ROI anualizado",
+    "netProfit": "Ganancia neta",
+    "revenue": "Ingresos",
+    "cost": "Costo",
+    "profit": "Ganancia",
+    "profitMargin": "Margen de ganancia",
+    "markup": "Markup",
+    "fixedCosts": "Costos fijos",
+    "pricePerUnit": "Precio por unidad",
+    "variableCostPerUnit": "Costo variable por unidad",
+    "targetUnits": "Unidades objetivo",
+    "breakEvenUnits": "Unidades de equilibrio",
+    "breakEvenRevenue": "Ingresos de equilibrio",
+    "profitAtTarget": "Ganancia en objetivo",
+    "marginOfSafety": "Margen de seguridad",
+    "units": "unidades",
+    "gender": "Género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "weight": "Peso",
+    "height": "Altura",
+    "neck": "Cuello",
+    "waist": "Cintura",
+    "hip": "Cadera",
+    "bodyFatPercentage": "Porcentaje de grasa corporal",
+    "fatMass": "Masa grasa",
+    "leanMass": "Masa magra",
+    "averageIdealWeight": "Peso ideal promedio",
+    "healthyBMIRange": "Rango BMI saludable",
+    "dailyWaterIntake": "Consumo diario de agua",
+    "glasses": "vasos",
+    "activityLevel": "Nivel de actividad",
+    "sedentary": "Sedentario",
+    "light": "Ligero",
+    "moderate": "Moderado",
+    "active": "Activo",
+    "veryActive": "Muy activo",
+    "climate": "Clima",
+    "cold": "Frío",
+    "hot": "Caluroso",
+    "dailyCalories": "Calorías diarias",
+    "macroSplit": "División de macros",
+    "balanced": "Balanceado",
+    "lowCarb": "Bajo en carbohidratos",
+    "highProtein": "Alto en proteínas",
+    "keto": "Keto",
+    "protein": "Proteína",
+    "carbs": "Carbohidratos",
+    "fat": "Grasa",
+    "currentAge": "Edad actual",
+    "retirementAge": "Edad de jubilación",
+    "currentSavings": "Ahorros actuales",
+    "monthlyContribution": "Contribución mensual",
+    "annualReturn": "Retorno anual",
+    "totalSavings": "Ahorros totales",
+    "totalContributions": "Contribuciones totales",
+    "totalInterest": "Intereses totales",
+    "monthlyIncome": "Ingreso mensual",
+    "yearsOfIncome": "Años de ingreso",
+    "years": "años",
+    "backToTools": "Volver a herramientas",
+    "copyCode": "Copiar código",
+    "quantity": "Cantidad",
+    "generateIdentity": "Generar Identidad",
+    "generateIdentities": "Generar Identidades",
+    "generateQR": "Generar Código QR",
+    "generatePassword": "Generar Contraseña",
+    "generateText": "Generar Texto",
+    "maxSize": "Tamaño máximo",
+    "words": "Palabras",
+    "sentences": "Oraciones",
+    "paragraphs": "Párrafos",
+    "wordsReversed": "Palabras Invertidas",
+    "characters": "Caracteres",
+    "noSpaces": "Sin Espacios",
+    "lines": "Líneas",
+    "avgWordsPerSentence": "Promedio de palabras por oración",
+    "avgCharsPerWord": "Promedio de caracteres por palabra",
+    "uploadPNG": "Sube tu imagen PNG",
+    "uploadJPG": "Sube tu imagen JPG",
+    "uploadImageToEncode": "Sube tu imagen para codificarla",
+    "dragAndDrop": "Arrastra y suelta tu archivo aquí, o haz clic para explorar",
+    "dropNow": "¡Suéltalo ahora!",
+    "tool": "herramienta",
+    "tools": "herramientas",
+    "length": "Longitud",
+    "uppercase": "Mayúsculas (A-Z)",
+    "lowercase": "Minúsculas (a-z)",
+    "numbers": "Números (0-9)",
+    "symbols": "Símbolos (!@#$%...)",
+    "textType": "Tipo de Texto",
+    "extraSpacesRemoved": "Espacios Extra Eliminados",
+    "allSpacesRemoved": "Todos los Espacios Eliminados",
+    "uppercaseText": "MAYÚSCULAS",
+    "titleCase": "Título Case",
+    "sentenceCase": "Sentence case",
+    "waitingConversion": "Esperando conversión...",
+    "weight": "Peso",
+    "temperature": "Temperatura",
+    "initialInvestmentLabel": "Inversión Inicial ($)",
+    "yearsOfInvestment": "Años de Inversión",
+    "calculateInvestment": "Calcular Inversión",
+    "pleaseUploadValidImage": "Por favor sube un archivo de imagen válido",
+    "pleaseUploadValidPNG": "Por favor sube un archivo PNG válido",
+    "pleaseUploadValidJPG": "Por favor sube un archivo JPG/JPEG válido",
+    "monthlyContributionLabel": "Contribución Mensual ($)",
+    "annualReturnRate": "Tasa de Retorno Anual (%)",
+    "annualInterestRate": "Tasa de Interés Anual (%)",
+    "monthlyPayment": "Pago Mensual",
+    "totalInterestPaid": "Interés Total",
+    "interestRate": "Tasa de Interés (%)",
+    "billAmount": "Monto de la Cuenta ($)",
+    "tipPercentage": "Porcentaje de Propina",
+    "numberOfPeople": "Número de Personas",
+    "calculateTip": "Calcular Propina",
+    "totalTip": "Propina Total",
+    "totalWithTip": "Total con Propina",
+    "tipPerPerson": "Propina por Persona",
+    "loanAmount": "Monto del Préstamo ($)",
+    "term": "Plazo (años)",
+    "homePrice": "Precio de la Vivienda ($)",
+    "originalPrice": "Precio Original ($)",
+    "discount": "Descuento",
+    "calculateDiscount": "Calcular Descuento",
+    "finalPrice": "Precio Final",
+    "value": "Valor",
+    "calculateSalary": "Calcular Salario",
+    "futureValue": "Valor Futuro",
+    "distance": "Distancia",
+    "fuelPrice": "Precio del Combustible",
+    "textOrURL": "Texto o URL",
+    "textOrURLPlaceholder": "https://ejemplo.com o cualquier texto...",
+    "size": "Tamaño",
+    "errorCorrection": "Corrección de Errores",
+    "low": "Baja",
+    "medium": "Media",
+    "high": "Alta",
+    "veryHigh": "Muy Alta",
+    "yourQRCode": "Tu Código QR",
+    "downloadQRCode": "Descargar QR Code",
+    "birthDate": "Fecha de Nacimiento",
+    "calculateAge": "Calcular Edad",
+    "yearsOld": "años",
+    "months": "meses",
+    "days": "días",
+    "hours": "horas",
+    "minutes": "minutos",
+    "seconds": "segundos",
+    "totalDaysLived": "Total de días vividos",
+    "totalMonths": "Total de meses",
+    "nextBirthday": "Próximo Cumpleaños",
+    "daysRemaining": "días restantes",
+    "username": "Usuario",
+    "phone": "Teléfono",
+    "age": "Edad",
+    "totalDays": "Total de Días",
+    "totalHours": "Total de Horas",
+    "totalMinutes": "Total de Minutos",
+    "totalSeconds": "Total de Segundos",
+    "hoursPerWeek": "Horas por Semana",
+    "ageYears": "Edad (años)",
+    "sedentaryDesc": "Poco o ningún ejercicio",
+    "lightDesc": "Ejercicio 1-3 días/semana",
+    "moderateDesc": "Ejercicio 3-5 días/semana",
+    "activeDesc": "Ejercicio 6-7 días/semana",
+    "veryActiveDesc": "Ejercicio intenso diario"
   },
   "nav": {
     "home": "Inicio",
@@ -17,6 +268,83 @@
     "language": "Idioma",
     "spanish": "Español",
     "english": "English"
+  },
+  "pdf": {
+    "selectMultiplePDFs": "Selecciona múltiples archivos PDF",
+    "selectPDFToSplit": "Selecciona un PDF para dividir",
+    "selectPDFToCompress": "Selecciona un PDF para comprimir",
+    "selectPDFToRotate": "Selecciona un PDF para rotar",
+    "selectPDFToProtect": "Selecciona un PDF para proteger",
+    "selectPDFToNumber": "Selecciona un PDF para numerar",
+    "selectImagesToConvert": "Selecciona imágenes JPG o PNG",
+    "selectedFiles": "Archivos seleccionados",
+    "selectedImages": "Imágenes seleccionadas",
+    "mergePDFs": "Combinar PDFs",
+    "splitPDF": "Dividir PDF",
+    "compressPDF": "Comprimir PDF",
+    "rotatePDF": "Rotar PDF",
+    "protectPDF": "Proteger PDF",
+    "convertToPDF": "Convertir a PDF",
+    "addPageNumbers": "Agregar Números",
+    "pages": "Páginas",
+    "page": "Página",
+    "downloadAll": "Descargar Todas",
+    "originalSize": "Tamaño original",
+    "compressedSize": "Tamaño comprimido",
+    "compressionComplete": "Compresión completada",
+    "rotationAngle": "Ángulo de rotación",
+    "password": "Contraseña",
+    "enterPassword": "Ingresa una contraseña",
+    "pageNumbersInfo": "Se agregarán números de página automáticamente",
+    "pageNumbersPosition": "Los números aparecerán centrados en la parte inferior de cada página",
+    "step1": "Selecciona archivos",
+    "step1Desc": "Arrastra o haz clic para agregar PDFs",
+    "step2": "Ordena archivos",
+    "step2Desc": "Usa las flechas para reordenar",
+    "step3": "Combina y descarga",
+    "step3Desc": "Obtén tu PDF combinado",
+    "dragOrClick": "Arrastra archivos aquí o haz clic para seleccionar",
+    "dropHere": "¡Suelta los archivos aquí!",
+    "selectFiles": "Seleccionar Archivos",
+    "readyToMerge": "Listo para combinar",
+    "mergeComplete": "¡Combinación exitosa!",
+    "mergeSuccess": "Tu PDF ha sido combinado correctamente",
+    "downloadMerged": "Descargar PDF Combinado",
+    "splitComplete": "¡División exitosa!",
+    "splitSuccess": "Tu PDF ha sido dividido en páginas individuales",
+    "compressionSuccess": "Tu PDF ha sido comprimido exitosamente",
+    "rotationComplete": "¡Rotación exitosa!",
+    "rotationSuccess": "Tu PDF ha sido rotado correctamente",
+    "conversionComplete": "¡Conversión exitosa!",
+    "conversionSuccess": "Tus imágenes han sido convertidas a PDF",
+    "uploadPDF": "Sube tu PDF",
+    "uploadPDFDesc": "Arrastra o selecciona el archivo",
+    "splitPages": "Divide en páginas",
+    "splitPagesDesc": "Procesamiento automático",
+    "downloadPages": "Descarga páginas",
+    "downloadPagesDesc": "Individual o todas juntas",
+    "readyToConvert": "Listo para convertir",
+    "securitySettings": "Configuración de seguridad",
+    "confirmPassword": "Confirmar contraseña",
+    "confirmPasswordPlaceholder": "Confirma tu contraseña",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "passwordTooShort": "La contraseña debe tener al menos 6 caracteres",
+    "passwordsMatch": "Las contraseñas coinciden",
+    "protectionNote": "Nota: La protección con contraseña en el navegador tiene limitaciones. Para máxima seguridad, usa herramientas de escritorio.",
+    "protectionComplete": "¡Protección exitosa!",
+    "protectionSuccess": "Tu PDF ha sido protegido con contraseña",
+    "numberPosition": "Posición de los números",
+    "left": "Izquierda",
+    "center": "Centro",
+    "right": "Derecha",
+    "numberingComplete": "¡Numeración exitosa!",
+    "numberingSuccess": "Se han agregado números de página a tu PDF",
+    "selectPages": "Selecciona páginas",
+    "of": "de",
+    "pagesSelected": "páginas seleccionadas",
+    "selectAll": "Seleccionar todas",
+    "deselectAll": "Deseleccionar todas",
+    "downloadSelected": "Descargar seleccionadas"
   },
   "home": {
     "title": "Toolify - Herramientas Online Gratuitas para Imágenes",
@@ -29,6 +357,7 @@
   },
   "categories": {
     "image": "Herramientas de Imagen",
+    "pdf": "Herramientas PDF",
     "generator": "Generadores",
     "calculator": "Calculadoras",
     "text": "Herramientas de Texto",
@@ -105,6 +434,55 @@
       "longDescription": "Convierte imágenes a una cadena Base64 para incrustarlas directamente en tu código HTML o CSS.",
       "keywords": "imagen a base64, convertir base64, codificador imagen, base64 image"
     },
+    "mergepdf": {
+      "name": "Combinar PDF",
+      "description": "Combina múltiples PDFs en uno solo",
+      "title": "Combinar PDF Online - Toolify",
+      "longDescription": "Combina varios archivos PDF en un solo documento de forma rápida y sencilla.",
+      "keywords": "combinar pdf, merge pdf, unir pdf, juntar pdf"
+    },
+    "splitpdf": {
+      "name": "Dividir PDF",
+      "description": "Divide PDF en páginas individuales",
+      "title": "Dividir PDF Online - Toolify",
+      "longDescription": "Separa un archivo PDF en páginas individuales para descargar cada una por separado.",
+      "keywords": "dividir pdf, split pdf, separar pdf, extraer páginas"
+    },
+    "compresspdf": {
+      "name": "Comprimir PDF",
+      "description": "Reduce el tamaño de archivos PDF",
+      "title": "Comprimir PDF Online - Toolify",
+      "longDescription": "Reduce el tamaño de tus archivos PDF manteniendo la calidad del documento.",
+      "keywords": "comprimir pdf, reducir pdf, optimizar pdf, pdf pequeño"
+    },
+    "rotatepdf": {
+      "name": "Rotar PDF",
+      "description": "Rota las páginas de tu PDF",
+      "title": "Rotar PDF Online - Toolify",
+      "longDescription": "Gira las páginas de tu PDF 90, 180 o 270 grados según necesites.",
+      "keywords": "rotar pdf, girar pdf, rotate pdf, orientación pdf"
+    },
+    "jpgtopdf": {
+      "name": "JPG a PDF",
+      "description": "Convierte imágenes JPG/PNG a PDF",
+      "title": "Convertidor JPG a PDF - Toolify",
+      "longDescription": "Convierte una o varias imágenes en un documento PDF de forma instantánea.",
+      "keywords": "jpg a pdf, imagen a pdf, png a pdf, convertir pdf"
+    },
+    "protectpdf": {
+      "name": "Proteger PDF",
+      "description": "Agrega contraseña a tu PDF",
+      "title": "Proteger PDF con Contraseña - Toolify",
+      "longDescription": "Protege tus documentos PDF con una contraseña para mantener tu información segura.",
+      "keywords": "proteger pdf, password pdf, cifrar pdf, seguridad pdf"
+    },
+    "addpagenumbers": {
+      "name": "Numerar Páginas",
+      "description": "Agrega números de página a tu PDF",
+      "title": "Agregar Números de Página a PDF - Toolify",
+      "longDescription": "Añade numeración automática a las páginas de tu documento PDF.",
+      "keywords": "numerar pdf, números página, paginar pdf, page numbers"
+    },
     "passwordgenerator": {
       "name": "Generador de Contraseñas",
       "description": "Crea contraseñas seguras y aleatorias"
@@ -153,6 +531,38 @@
       "name": "Convertidor de Unidades",
       "description": "Convierte entre diferentes unidades"
     },
+    "fuelcalculator": {
+      "name": "Calculadora de Combustible",
+      "description": "Calcula el costo de combustible para tu viaje"
+    },
+    "tipcalculator": {
+      "name": "Calculadora de Propinas",
+      "description": "Calcula propinas y divide la cuenta"
+    },
+    "salarycalculator": {
+      "name": "Calculadora de Salario",
+      "description": "Convierte salario entre períodos de pago"
+    },
+    "mortgagecalculator": {
+      "name": "Calculadora de Hipoteca",
+      "description": "Calcula pagos de hipoteca y costos totales"
+    },
+    "caloriecalculator": {
+      "name": "Calculadora de Calorías",
+      "description": "Calcula tus necesidades calóricas diarias"
+    },
+    "gpacalculator": {
+      "name": "Calculadora de GPA",
+      "description": "Calcula tu promedio académico"
+    },
+    "discountcalculator": {
+      "name": "Calculadora de Descuentos",
+      "description": "Calcula precios con descuento"
+    },
+    "investmentcalculator": {
+      "name": "Calculadora de Inversión",
+      "description": "Calcula el crecimiento de tus inversiones"
+    },
     "wordcounter": {
       "name": "Contador de Palabras",
       "description": "Cuenta palabras y caracteres"
@@ -181,9 +591,157 @@
       "name": "Base64 Encode/Decode",
       "description": "Codifica y decodifica Base64"
     },
+    "urlencoder": {
+      "name": "URL Encoder/Decoder",
+      "description": "Codifica y decodifica URLs"
+    },
     "urlencode": {
       "name": "URL Encoder/Decoder",
       "description": "Codifica y decodifica URLs"
+    },
+    "currencyconverter": {
+      "name": "Convertidor de Monedas",
+      "description": "Convierte entre diferentes monedas",
+      "note": "Las tasas son aproximadas y solo para referencia"
+    },
+    "taxcalculator": {
+      "name": "Calculadora de Impuestos",
+      "description": "Calcula impuestos federales US"
+    },
+    "roicalculator": {
+      "name": "Calculadora ROI",
+      "description": "Calcula el retorno de inversión"
+    },
+    "profitmargincalculator": {
+      "name": "Calculadora de Margen",
+      "description": "Calcula margen de ganancia y markup"
+    },
+    "breakevencalculator": {
+      "name": "Punto de Equilibrio",
+      "description": "Calcula el punto de equilibrio de tu negocio"
+    },
+    "bodyfatcalculator": {
+      "name": "Calculadora de Grasa Corporal",
+      "description": "Calcula tu porcentaje de grasa corporal"
+    },
+    "idealweightcalculator": {
+      "name": "Peso Ideal",
+      "description": "Calcula tu peso ideal según diferentes fórmulas"
+    },
+    "waterintakecalculator": {
+      "name": "Consumo de Agua",
+      "description": "Calcula tu consumo diario de agua recomendado"
+    },
+    "macrocalculator": {
+      "name": "Calculadora de Macros",
+      "description": "Calcula tus macronutrientes diarios"
+    },
+    "retirementcalculator": {
+      "name": "Calculadora de Jubilación",
+      "description": "Planifica tus ahorros para el retiro"
+    },
+    "readingtime": {
+      "name": "Tiempo de Lectura",
+      "description": "Calcula el tiempo de lectura de un texto"
+    },
+    "textdiff": {
+      "name": "Comparar Textos",
+      "description": "Compara dos textos y encuentra diferencias"
+    },
+    "keyworddensity": {
+      "name": "Densidad de Palabras Clave",
+      "description": "Analiza la densidad de palabras en tu texto"
+    },
+    "textsorter": {
+      "name": "Ordenar Texto",
+      "description": "Ordena líneas de texto alfabéticamente"
+    },
+    "removeduplicates": {
+      "name": "Eliminar Duplicados",
+      "description": "Elimina líneas duplicadas del texto"
+    },
+    "linenumbering": {
+      "name": "Numerar Líneas",
+      "description": "Agrega números de línea a tu texto"
+    },
+    "emailextractor": {
+      "name": "Extraer Emails",
+      "description": "Extrae direcciones de email de un texto"
+    },
+    "findreplace": {
+      "name": "Buscar y Reemplazar",
+      "description": "Busca y reemplaza texto"
+    },
+    "xmlformatter": {
+      "name": "Formateador XML",
+      "description": "Formatea y embellece código XML"
+    },
+    "sqlformatter": {
+      "name": "Formateador SQL",
+      "description": "Formatea consultas SQL"
+    },
+    "cssminifier": {
+      "name": "Minificar CSS",
+      "description": "Reduce el tamaño de archivos CSS"
+    },
+    "jsminifier": {
+      "name": "Minificar JavaScript",
+      "description": "Reduce el tamaño de archivos JS"
+    },
+    "htmlminifier": {
+      "name": "Minificar HTML",
+      "description": "Reduce el tamaño de archivos HTML"
+    },
+    "hashgenerator": {
+      "name": "Generador de Hash",
+      "description": "Genera hashes MD5, SHA-1, SHA-256"
+    },
+    "jwtdecoder": {
+      "name": "Decodificador JWT",
+      "description": "Decodifica tokens JWT"
+    },
+    "csvtojson": {
+      "name": "CSV a JSON",
+      "description": "Convierte CSV a formato JSON"
+    },
+    "jsontocsv": {
+      "name": "JSON a CSV",
+      "description": "Convierte JSON a formato CSV"
+    },
+    "usernamegenerator": {
+      "name": "Generador de Usuarios",
+      "description": "Genera nombres de usuario únicos"
+    },
+    "hashtaggenerator": {
+      "name": "Generador de Hashtags",
+      "description": "Genera hashtags para redes sociales"
+    },
+    "slogangenerator": {
+      "name": "Generador de Eslóganes",
+      "description": "Crea eslóganes creativos"
+    },
+    "biogenerator": {
+      "name": "Generador de Biografías",
+      "description": "Genera biografías profesionales"
     }
+  },
+  "uuid": {
+    "quantity": "Cantidad de UUIDs",
+    "generate": "Generar UUID",
+    "generates": "Generar UUIDs",
+    "generated": "Generado",
+    "generateds": "Generados",
+    "copyAll": "Copiar Todos",
+    "copied": "Copiados"
+  },
+  "randomNumber": {
+    "quantity": "Cantidad de números",
+    "generate": "Generar Número",
+    "generates": "Generar Números",
+    "errorUnique": "No se pueden generar números únicos: rango muy pequeño",
+    "min": "Mínimo",
+    "max": "Máximo",
+    "quantity2": "Cantidad",
+    "unique": "Números únicos (sin repetir)"
   }
 }
