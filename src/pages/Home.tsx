@@ -25,12 +25,14 @@ import {
   Palette,
   Search,
   LayoutGrid,
+  FilePlus,
 } from "lucide-react";
 import type { Tool, ToolCategory } from "../types";
 
 // Categorías - Solo IDs y config
 const categoryConfig = [
   { id: "image", icon: ImageIcon, color: "from-purple-500 to-pink-500" },
+  { id: "pdf", icon: FilePlus, color: "from-red-500 to-orange-500" },
   { id: "generator", icon: Lock, color: "from-blue-500 to-cyan-500" },
   { id: "calculator", icon: Calculator, color: "from-green-500 to-emerald-500" },
   { id: "text", icon: Type, color: "from-orange-500 to-red-500" },
@@ -50,54 +52,105 @@ const toolConfig = [
   { id: "image-to-webp", icon: ImageIcon, category: "image" },
   { id: "color-picker", icon: Palette, category: "image" },
   { id: "image-to-base64", icon: Code, category: "image" },
+  // PDF Tools
+  { id: "merge-pdf", icon: FilePlus, category: "pdf" },
+  { id: "split-pdf", icon: Crop, category: "pdf" },
+  { id: "compress-pdf", icon: FileImage, category: "pdf" },
+  { id: "rotate-pdf", icon: RotateCw, category: "pdf" },
+  { id: "jpg-to-pdf", icon: ImageIcon, category: "pdf" },
+  { id: "protect-pdf", icon: Lock, category: "pdf" },
+  { id: "add-page-numbers", icon: Hash, category: "pdf" },
   // Generators
-  { id: "password-generator", icon: Lock, category: "generator", comingSoon: true },
-  { id: "uuid-generator", icon: Hash, category: "generator", comingSoon: true },
-  { id: "qr-generator", icon: Crop, category: "generator", comingSoon: true },
-  { id: "random-number", icon: Dices, category: "generator", comingSoon: true },
-  { id: "lorem-ipsum", icon: BookOpen, category: "generator", comingSoon: true },
-  { id: "fake-name", icon: Type, category: "generator", comingSoon: true },
+  { id: "password-generator", icon: Lock, category: "generator" },
+  { id: "uuid-generator", icon: Hash, category: "generator" },
+  { id: "qr-generator", icon: Crop, category: "generator" },
+  { id: "random-number", icon: Dices, category: "generator" },
+  { id: "lorem-ipsum", icon: BookOpen, category: "generator" },
+  { id: "fake-name", icon: Type, category: "generator" },
+  { id: "username-generator", icon: Type, category: "generator" },
+  { id: "hashtag-generator", icon: Hash, category: "generator" },
+  { id: "slogan-generator", icon: BookOpen, category: "generator" },
+  { id: "bio-generator", icon: Type, category: "generator" },
   // Calculators
-  { id: "bmi-calculator", icon: Calculator, category: "calculator", comingSoon: true },
-  { id: "age-calculator", icon: Clock, category: "calculator", comingSoon: true },
-  { id: "percentage-calculator", icon: Calculator, category: "calculator", comingSoon: true },
-  { id: "loan-calculator", icon: CreditCard, category: "calculator", comingSoon: true },
-  { id: "time-difference", icon: Clock, category: "calculator", comingSoon: true },
-  { id: "unit-converter", icon: Ruler, category: "calculator", comingSoon: true },
+  { id: "bmi-calculator", icon: Calculator, category: "calculator" },
+  { id: "age-calculator", icon: Clock, category: "calculator" },
+  { id: "percentage-calculator", icon: Calculator, category: "calculator" },
+  { id: "loan-calculator", icon: CreditCard, category: "calculator" },
+  { id: "time-difference", icon: Clock, category: "calculator" },
+  { id: "unit-converter", icon: Ruler, category: "calculator" },
+  { id: "fuel-calculator", icon: Calculator, category: "calculator" },
+  { id: "tip-calculator", icon: Calculator, category: "calculator" },
+  { id: "salary-calculator", icon: Calculator, category: "calculator" },
+  { id: "mortgage-calculator", icon: CreditCard, category: "calculator" },
+  { id: "calorie-calculator", icon: Calculator, category: "calculator" },
+  { id: "gpa-calculator", icon: Calculator, category: "calculator" },
+  { id: "discount-calculator", icon: Calculator, category: "calculator" },
+  { id: "investment-calculator", icon: CreditCard, category: "calculator" },
+  { id: "currency-converter", icon: Calculator, category: "calculator" },
+  { id: "tax-calculator", icon: Calculator, category: "calculator" },
+  { id: "roi-calculator", icon: CreditCard, category: "calculator" },
+  { id: "profit-margin-calculator", icon: Calculator, category: "calculator" },
+  { id: "break-even-calculator", icon: Calculator, category: "calculator" },
+  { id: "body-fat-calculator", icon: Calculator, category: "calculator" },
+  { id: "ideal-weight-calculator", icon: Calculator, category: "calculator" },
+  { id: "water-intake-calculator", icon: Calculator, category: "calculator" },
+  { id: "macro-calculator", icon: Calculator, category: "calculator" },
+  { id: "retirement-calculator", icon: CreditCard, category: "calculator" },
   // Text Tools
-  { id: "word-counter", icon: FileText, category: "text", comingSoon: true },
-  { id: "character-counter", icon: Type, category: "text", comingSoon: true },
-  { id: "remove-spaces", icon: Copy, category: "text", comingSoon: true },
-  { id: "text-case", icon: Type, category: "text", comingSoon: true },
-  { id: "reverse-text", icon: RotateCw, category: "text", comingSoon: true },
+  { id: "word-counter", icon: FileText, category: "text" },
+  { id: "character-counter", icon: Type, category: "text" },
+  { id: "remove-spaces", icon: Copy, category: "text" },
+  { id: "text-case", icon: Type, category: "text" },
+  { id: "reverse-text", icon: RotateCw, category: "text" },
+  { id: "reading-time", icon: Clock, category: "text" },
+  { id: "text-diff", icon: FileText, category: "text" },
+  { id: "keyword-density", icon: Search, category: "text" },
+  { id: "text-sorter", icon: LayoutGrid, category: "text" },
+  { id: "remove-duplicates", icon: Copy, category: "text" },
+  { id: "line-numbering", icon: Hash, category: "text" },
+  { id: "email-extractor", icon: Network, category: "text" },
+  { id: "find-replace", icon: Search, category: "text" },
   // Developer Tools
-  { id: "json-formatter", icon: FileJson, category: "developer", comingSoon: true },
-  { id: "base64-encode", icon: Code, category: "developer", comingSoon: true },
-  { id: "url-encoder", icon: Network, category: "developer", comingSoon: true },
+  { id: "json-formatter", icon: FileJson, category: "developer" },
+  { id: "base64-encode", icon: Code, category: "developer" },
+  { id: "url-encoder", icon: Network, category: "developer" },
+  { id: "xml-formatter", icon: FileJson, category: "developer" },
+  { id: "sql-formatter", icon: Code, category: "developer" },
+  { id: "css-minifier", icon: Code, category: "developer" },
+  { id: "js-minifier", icon: Code, category: "developer" },
+  { id: "html-minifier", icon: Code, category: "developer" },
+  { id: "hash-generator", icon: Hash, category: "developer" },
+  { id: "jwt-decoder", icon: Lock, category: "developer" },
+  { id: "csv-to-json", icon: FileJson, category: "developer" },
+  { id: "json-to-csv", icon: FileText, category: "developer" },
 ];
 
 export default function Home() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   // Construir categorías dinámicamente desde la traducción
-  const categories: ToolCategory[] = categoryConfig.map((cat) => ({
-    id: cat.id,
-    name: t(`categories.${cat.id}`),
-    icon: cat.icon,
-    color: cat.color,
-  }));
+  const categories: ToolCategory[] = useMemo(() => {
+    return categoryConfig.map((cat) => ({
+      id: cat.id,
+      name: t(`categories.${cat.id}`),
+      icon: cat.icon,
+      color: cat.color,
+    }));
+  }, [t, i18n.language]);
 
   // Construir herramientas dinámicamente desde la traducción
-  const tools: Tool[] = toolConfig.map((tool) => ({
-    id: tool.id,
-    name: t(`tools.${tool.id.replace(/-/g, '')}.name`),
-    description: t(`tools.${tool.id.replace(/-/g, '')}.description`),
-    icon: tool.icon,
-    category: tool.category as "image" | "generator" | "calculator" | "text" | "developer",
-    comingSoon: tool.comingSoon,
-  }));
+  const tools: Tool[] = useMemo(() => {
+    return toolConfig.map((tool) => ({
+      id: tool.id,
+      name: t(`tools.${tool.id.replace(/-/g, '')}.name`),
+      description: t(`tools.${tool.id.replace(/-/g, '')}.description`),
+      icon: tool.icon,
+      category: tool.category as "image" | "pdf" | "generator" | "calculator" | "text" | "developer",
+      comingSoon: ('comingSoon' in tool ? tool.comingSoon : false) as boolean | undefined,
+    }));
+  }, [t, i18n.language]);
 
   const filteredCategories = useMemo(() => {
     return categories
@@ -124,7 +177,7 @@ export default function Home() {
       .filter((category) =>
         selectedCategory ? category.id === selectedCategory : true,
       );
-  }, [searchQuery, selectedCategory]);
+  }, [searchQuery, selectedCategory, categories, tools]); // ⚡ Agregar categories y tools como dependencias
 
   return (
     <>
@@ -210,8 +263,7 @@ export default function Home() {
                     {category.name}
                   </h2>
                   <p className="text-sm font-semibold text-gray-500 mt-1 uppercase tracking-wider">
-                    {category.tools.length} herramienta
-                    {category.tools.length !== 1 ? "s" : ""}
+                    {category.tools.length} {category.tools.length !== 1 ? t('common.tools') : t('common.tool')}
                   </p>
                 </div>
               </div>
