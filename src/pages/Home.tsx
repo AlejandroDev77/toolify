@@ -301,6 +301,39 @@ export default function Home() {
           </button>
         </div>
       )}
+
+      {/* SEO Article Section for AdSense */}
+      <div className="mt-20 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 animate-in fade-in duration-700">
+        <article className="prose prose-indigo max-w-none text-gray-600">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">{t('home.seo.title', 'Toolify: Tu Suite de Herramientas Online Gratuitas')}</h2>
+          
+          <p className="text-lg leading-relaxed mb-6">
+            Bienvenido a <strong>Toolify</strong>, la plataforma definitiva que reúne más de 70 herramientas online diseñadas para hacer tu vida digital más fácil. Ya seas un desarrollador buscando formatear código, un estudiante que necesita unir documentos PDF, o un diseñador que requiere comprimir imágenes rápidamente, nuestra plataforma te ofrece todo lo necesario en un solo lugar y sin instalaciones.
+          </p>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">¿Por qué elegir Toolify para tus tareas diarias?</h3>
+          <p className="mb-4">
+            En un mundo donde el tiempo es oro, descargar software especializado para realizar tareas sencillas es cosa del pasado. Nuestra colección de herramientas te permite:
+          </p>
+          <ul className="list-disc pl-6 mb-8 space-y-2">
+            <li><strong>Procesar Imágenes y PDFs:</strong> Redimensiona, comprime, recorta o convierte el formato de tus archivos visuales en cuestión de segundos.</li>
+            <li><strong>Generar y Calcular:</strong> Desde contraseñas seguras hasta calculadoras de IMC o porcentajes, todo pensado para darte resultados matemáticos o lógicos instantáneos.</li>
+            <li><strong>Herramientas para Desarrolladores:</strong> Formateadores de JSON, decodificadores JWT y minificadores de código listos para agilizar tu flujo de trabajo.</li>
+            <li><strong>Manipulación de Texto:</strong> Cuenta palabras, elimina espacios duplicados o cambia mayúsculas y minúsculas con un solo clic.</li>
+          </ul>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Compromiso Total con tu Privacidad</h3>
+          <p className="mb-4">
+            A diferencia de otras plataformas que almacenan tus documentos en sus servidores para procesarlos, en Toolify <strong>priorizamos tu privacidad y seguridad</strong>. La inmensa mayoría de nuestras herramientas (especialmente el procesamiento de imágenes y texto) operan bajo tecnología <em>Client-Side</em>. Esto significa que los cálculos y modificaciones ocurren directamente en la memoria de tu navegador (Chrome, Safari, Firefox) y <strong>tus archivos nunca suben a nuestros servidores</strong>. Si cierras la pestaña, tus datos desaparecen para siempre.
+          </p>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Gratis, Rápido y Sin Registros</h3>
+          <p>
+            Creemos que las herramientas básicas de internet deben ser accesibles para todos. Por ello, no necesitas crear una cuenta de usuario, ingresar tarjetas de crédito ni suscribirte a molestas listas de correo para utilizar Toolify. Simplemente entra, realiza tu tarea, descarga tus resultados y continúa con tu día a la máxima velocidad.
+          </p>
+        </article>
+      </div>
+
       </div>
     </>
   );
