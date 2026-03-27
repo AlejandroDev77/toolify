@@ -190,6 +190,39 @@ export default function CompressImage() {
           </div>
         )}
       </div>
+
+      {/* SEO Content Section */}
+      <div className="mt-16 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 max-w-5xl mx-auto">
+        <article className="prose prose-indigo max-w-none text-gray-600">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Compresor de Imágenes Online Gratuito</h2>
+          <p className="text-lg mb-8 text-gray-700 leading-relaxed">
+            Nuestra herramienta gratuita para comprimir imágenes reduce drásticamente el tamaño (peso) de tus fotos sin pérdida visible de calidad. Optimizada para creadores, diseñadores web y usuarios comunes, te ayuda a ahorrar espacio y mejorar el tiempo de carga de tus sitios web y aplicaciones.
+          </p>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">La importancia de comprimir imágenes web</h3>
+          <p className="mb-4">
+            Subir una imagen sin comprimir a tu blog o tienda online puede ser perjudicial tanto para el usuario como para el posicionamiento (SEO). Aquí te enumeramos los beneficios clave de la compresión:
+          </p>
+          <ul className="list-disc pl-6 mb-8 space-y-2">
+            <li><strong>Optimización SEO:</strong> Google prioriza las páginas de carga rápida. Una imagen de 5MB tarda mucho en cargar, pero nuestra herramienta la puede reducir a 300KB sin que el ojo humano lo note, impulsando tu Core Web Vitals.</li>
+            <li><strong>Ahorro en transferencia de datos:</strong> Muchas veces los planes de hosting web se encarecen por la cantidad de datos que tus visitantes consumen. Imágenes ligeras = menor consumo de ancho de banda.</li>
+            <li><strong>Límites en envíos por correo o WhatsApp:</strong> Muchos servidores de correo no permiten enviar correos con adjuntos superiores a 25MB. Reduciendo tus fotos, puedes adjuntar hasta diez veces más imágenes.</li>
+          </ul>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Formatos Soportados y Proceso Técnico</h3>
+          <p className="mb-4">
+            Aceptamos formatos populares como <strong>JPG, PNG, WebP y otros formatos web</strong>. Internamente, utilizamos algoritmos avanzados de lienzo (Canvas API) para remapear los píxeles y descartar datos redundantes que el ojo desnudo no detecta con facilidad.
+          </p>
+          <p className="mb-4">
+            Simplemente arrastra tu imagen hacia el cuadro superior o dale clic para seleccionarla desde tus archivos. Nuestra aplicación calculará automáticamente la mejor relación entre compresión (bytes ahorrados) y calidad visual, mostrando gráficamente cuánto espacio ahorraste.
+          </p>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Privacidad y Seguridad Garantizada</h3>
+          <p>
+            Sabemos que muchas de tus imágenes pueden ser privadas, familiares o contener datos corporativos confidenciales. <strong>Mantenemos tu privacidad intacta procesando la compresión de forma 100% local</strong> dentro del navegador web de tu computadora o móvil. Nunca enviamos el archivo original ni el comprimido a nuestros servidores, lo que hace imposible que nosotros o terceros puedan espiar tus datos.
+          </p>
+        </article>
+      </div>
     </ToolLayout>
     </>
   );

@@ -273,6 +273,42 @@ export default function CropImage() {
           </div>
         )}
       </div>
+
+      {/* SEO Content Section */}
+      <div className="mt-16 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 max-w-5xl mx-auto">
+        <article className="prose prose-indigo max-w-none text-gray-600">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Recortar Imágenes Online Gratis</h2>
+          <p className="text-lg mb-8 text-gray-700 leading-relaxed">
+            Nuestra herramienta gratuita para <strong>recortar imágenes</strong> te permite extraer la parte exacta que necesitas de cualquier fotografía. Ya sea para enfocar la atención en el sujeto principal, eliminar fondos no deseados o adaptar la imagen a las estrictas proporciones de las redes sociales, este recortador online te da una precisión de píxel invaluable.
+          </p>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">¿Por qué recortar una imagen?</h3>
+          <p className="mb-4">
+            El recorte no solo sirve para mejorar la composición estética (como aplicar la regla de los tercios). Algunos de los casos de uso más urgentes incluyen:
+          </p>
+          <ul className="list-disc pl-6 mb-8 space-y-2">
+            <li><strong>Fotos de Perfil y CV:</strong> Centrar la cara y eliminar distracciones para perfiles de LinkedIn o currículos profesionales.</li>
+            <li><strong>Redes Sociales:</strong> Adaptar automáticamente tus fotos a los formatos cuadrados (1:1), verticales de Historias (9:16) o portadas (16:9) que exigen plataformas como Instagram o YouTube.</li>
+            <li><strong>Eliminación de elementos o marcas de agua:</strong> Remover los bordes de la pantalla (si fue una captura de pantalla) accidentalmente incluidos en la foto.</li>
+          </ul>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">¿Cómo usar la herramienta de recorte de Toolify?</h3>
+          <p className="mb-4">
+            A diferencia de complicados programas tradicionales como Photoshop, recortar una imagen en nuestra plataforma no tiene curva de aprendizaje:
+          </p>
+          <ol className="list-decimal pl-6 mb-8 space-y-2">
+            <li>Sube tu imagen (JPG, PNG, WebP) desde tu dispositivo o simplemente arrástrala a la cuadricula principal.</li>
+            <li>Con el ratón de tu ordenador o tu dedo (en móvil), usa la zona interactiva para <strong>trazar el rectángulo</strong> sobre el área que deseas conservar.</li>
+            <li>Si requieres ajustes matemáticos precisos, utiliza nuestro panel de <em>Opciones de Recorte</em> (Modo Control Numérico) para especificar el ancho y alto en píxeles.</li>
+            <li>Una vez conforme con la <em>Vista Previa</em>, haz clic en "Descargar Recorte" y obtendrás la nueva imagen en alta resolución de manera inmediata.</li>
+          </ol>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Seguridad 100% Garantizada (Client-Side)</h3>
+          <p>
+            Al igual que el proceso de compresión, esta herramienta de recorte <strong>procesa tus fotos de forma local</strong> en el navegador de tu computadora o móvil. Tu imagen original y tu imagen recortada nunca son enviadas a la nube. Esto significa que puedes recortar documentos de identidad, información bancaria y fotos familiares con total tranquilidad y privacidad.
+          </p>
+        </article>
+      </div>
     </ToolLayout>
     </>
   );

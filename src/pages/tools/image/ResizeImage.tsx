@@ -343,6 +343,43 @@ export default function ResizeImage() {
           </div>
         )}
       </div>
+
+      {/* SEO Content Section */}
+      <div className="mt-16 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 max-w-5xl mx-auto">
+        <article className="prose prose-indigo max-w-none text-gray-600">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Herramienta Gratuita para Redimensionar Imágenes Online</h2>
+          <p className="text-lg mb-8 text-gray-700 leading-relaxed">
+            Nuestra herramienta gratuita de redimensionamiento de imágenes te permite cambiar el tamaño de cualquier fotografía o imagen (JPG, PNG, WebP) directamente en tu navegador, sin tener que descargar software complejo ni registrarte.
+          </p>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">¿Por qué es importante redimensionar tus imágenes?</h3>
+          <p className="mb-4">
+            A menudo, las cámaras modernas y los teléfonos móviles capturan imágenes con resoluciones altísimas. Aunque esto es excelente para la impresión, usar imágenes de gran tamaño en internet puede traer problemas:
+          </p>
+          <ul className="list-disc pl-6 mb-8 space-y-2">
+            <li><strong>Tiempo de Carga (Velocidad Web):</strong> Imágenes pesadas retrasan la carga de tu sitio web. Redimensionando las imágenes a los tamaños exactos necesarios puedes mejorar drásticamente el rendimiento de carga y el SEO de tu página.</li>
+            <li><strong>Redes Sociales:</strong> Las plataformas como Instagram, Facebook, X (Twitter) o LinkedIn suelen tener requisitos específicos de tamaño y proporción para evitar que las fotos se recorten de forma extraña.</li>
+            <li><strong>Ahorro de Espacio:</strong> Compartir fotos por correo o en servicios de mensajería puede ser tedioso. Cambiarlas a un tamaño más pequeño te permite compartirlas inmediatamente.</li>
+          </ul>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">¿Cómo utilizar el redimensionador?</h3>
+          <p className="mb-4">
+            El proceso es sumamente sencillo e intuitivo:
+          </p>
+          <ol className="list-decimal pl-6 mb-8 space-y-2">
+            <li>Haz clic en el área de subida para subir tu imagen, o simplemente arrástrala del escritorio a la pantalla.</li>
+            <li>Observa el tamaño original y la proporción actual (ancho x alto).</li>
+            <li>Usa nuestro panel lateral para <strong>ajustar el tamaño en píxeles</strong> o aplicar un atajo de escala (por ejemplo, reducir al 50% de inmediato).</li>
+            <li>Si dejas presionado el botón del candado de <em>"Proporción Exacta"</em>, te asegurarás de que tu foto no se deforme ni se vea estirada al cambiar la medida de un solo lado.</li>
+            <li>Presiona el botón de descargar para obtener tu archivo completamente procesado.</li>
+          </ol>
+
+          <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Privacidad Garantizada (Seguro y Local)</h3>
+          <p>
+            A diferencia de otros servicios, <strong>nuestra herramienta procesa y redimensiona tu imagen localmente, directamente en el navegador del usuario</strong>. Esto significa que nosotros no guardamos, recopilamos ni procesamos tus imágenes en servidores de la nube. Todo ocurre entre tu computadora y tu navegador web. Una vez que cierras la ventana, la imagen temporal desaparece por completo, asegurando así tu máxima privacidad y confidencialidad. 
+          </p>
+        </article>
+      </div>
     </ToolLayout>
     </>
   );
