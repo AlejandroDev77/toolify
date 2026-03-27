@@ -5,7 +5,7 @@ export type Tool = {
   name: string;
   description: string;
   icon: ComponentType<{ className?: string }>;
-  category: 'image' | 'generator' | 'calculator' | 'text' | 'developer';
+  category: 'image' | 'pdf' | 'generator' | 'calculator' | 'text' | 'developer';
   comingSoon?: boolean;
 };
 

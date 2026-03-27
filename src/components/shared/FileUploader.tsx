@@ -1,4 +1,5 @@
 import { useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 import { UploadCloud } from 'lucide-react';
 import { useDropzone } from 'react-dropzone';
 
@@ -14,9 +15,12 @@ export default function FileUploader({
   onFileSelect, 
   accept = 'image/*', 
   maxSize = 50000000, 
-  title = 'Sube tu archivo',
-  subtitle = 'Arrastra y suelta tu archivo aquí, o haz clic para explorar'
+  title,
+  subtitle
 }: FileUploaderProps) {
+  const { t } = useTranslation();
+  const defaultTitle = title || t('common.upload');
+  const defaultSubtitle = subtitle || t('common.dragAndDrop');
   const onDrop = useCallback((acceptedFiles: File[]) => {
     if (acceptedFiles.length > 0) {
       onFileSelect(acceptedFiles[0]);
@@ -50,15 +54,15 @@ export default function FileUploader({
         </div>
         
         <h3 className={`text-xl font-bold mb-2 transition-colors ${isDragActive ? 'text-blue-600' : 'text-slate-700'}`}>
-          {isDragActive ? '¡Suéltalo ahora!' : title}
+          {isDragActive ? t('common.dropNow') : defaultTitle}
         </h3>
         
         <p className="text-slate-500 text-sm mb-4 max-w-sm">
-          {subtitle}
+          {defaultSubtitle}
         </p>
         
         <div className="px-4 py-2 bg-white border border-slate-200 rounded-full text-xs font-semibold text-slate-500 shadow-sm group-hover:border-blue-200 transition-colors">
-          Tamaño máximo: {(maxSize / 1000000).toFixed(0)}MB
+          {t('common.maxSize')}: {(maxSize / 1000000).toFixed(0)}MB
         </div>
       </div>
     </div>

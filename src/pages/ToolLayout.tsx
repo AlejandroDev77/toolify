@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
 import type { ReactNode, ComponentType } from 'react';
 
@@ -11,6 +12,7 @@ interface ToolLayoutProps {
 
 export default function ToolLayout({ title, description, icon: Icon, children }: ToolLayoutProps) {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   return (
     <div className="py-8 px-4 w-full max-w-6xl mx-auto">
@@ -19,7 +21,7 @@ export default function ToolLayout({ title, description, icon: Icon, children }:
         className="group flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-blue-600 mb-8 transition-colors"
       >
         <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-        Volver a herramientas
+        {t('common.backToTools')}
       </button>
 
       <div className="bg-white rounded-[2rem] shadow-xl shadow-blue-900/5 border border-gray-100 overflow-hidden">
