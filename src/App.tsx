@@ -97,8 +97,6 @@ import Contact from "./pages/legal/Contact";
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy";
 import TermsOfService from "./pages/legal/TermsOfService";
 
-import Footer from "./components/layout/Footer";
-
 export default function App() {
   return (
     <HelmetProvider>
