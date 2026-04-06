@@ -1,7 +1,8 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
 import type { ReactNode, ComponentType } from 'react';
+import { seoArticles } from '../data/seoArticles';
 
 interface ToolLayoutProps {
   title: string;
@@ -12,7 +13,17 @@ interface ToolLayoutProps {
 
 export default function ToolLayout({ title, description, icon: Icon, children }: ToolLayoutProps) {
   const navigate = useNavigate();
+  const location = useLocation();
   const { t } = useTranslation();
+
+  // Extract tool ID from pathname (e.g. "/tool/bmi-calculator" -> "bmi-calculator")
+  const pathParts = location.pathname.split('/');
+  const toolId = pathParts[pathParts.length - 1];
+  
+  // Omit duplicate SEO blocks if the specific tool already implements it manually,
+  // or explicitly avoid showing duplicate SEO articles if needed.
+  // Actually, we'll just check if it exists in our dictionary.
+  const seoArticle = seoArticles[toolId];
 
   return (
     <div className="py-8 px-4 w-full max-w-6xl mx-auto">
@@ -46,6 +57,13 @@ export default function ToolLayout({ title, description, icon: Icon, children }:
           {children}
         </div>
       </div>
+      
+      {/* Automagic SEO Article Injection */}
+      {seoArticle && (
+        <div className="mt-8">
+          {seoArticle}
+        </div>
+      )}
     </div>
   );
 }
